@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+h4 {
+  padding: 10px;
+}
+.receita {
+  padding: 30px;
+}
+
+.receita__link {
+  padding-top: 10px;
+}
+
+table {
+  margin-left: 30px;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+th {
+  background-color: aquamarine;
+}
+th,
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dcebe6;
+}
+
+tr:hover:nth-child(1n + 2) {
+  background-color: #085f63;
+  color: #fff;
+}
